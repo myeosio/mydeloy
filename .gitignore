@@ -25,7 +25,8 @@
 *.la
 *.a
 *.lib
-
+CMakeFiles
+.idea
 # Executables
 *.exe
 *.out

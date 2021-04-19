@@ -1,0 +1,29 @@
+本部署端口的占用规则
+
+第一位规则
+
+除了main和producers的http端口和p2p端口，本部署的所有其他服务占用的端口从4万开始，即 4xxxx。
+
+第二位规则
+
+main        0   40xxx
+sync        1   41xxx
+agents      2   42xxx
+full        3   43xxx
+transfer    4   44xxx
+exchange    5   45xxx
+
+第三位规则
+data        3   4x3xx
+mongod      4   4x4xx
+mongo-api   5   4x5xx
+
+第四位规则
+
+http    0   4xx0x
+p2p     1   4xx1x
+ws      2   4xx2x
+
+explorer较为特殊，目前占用端口5000x
+
+
