@@ -1,0 +1,10 @@
+{
+    "name": "net",
+    "type": "gelf",
+    "args": {
+        "endpoint": "10.254.1.14:12202”,
+        "host": "10.254.1.14"
+    },
+    "enabled": true
+}
+

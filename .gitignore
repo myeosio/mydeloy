@@ -1,6 +1,7 @@
 # Prerequisites
 *.d
 
+.DS_Store
 # Compiled Object files
 *.slo
 *.lo
@@ -25,8 +26,9 @@
 *.la
 *.a
 *.lib
-
+CMakeFiles
 # Executables
 *.exe
 *.out
 *.app
+.idea
