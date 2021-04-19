@@ -1,0 +1,2 @@
+# mydeloy
+eosio deploy
