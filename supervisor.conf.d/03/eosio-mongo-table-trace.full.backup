@@ -1,0 +1,9 @@
+[program:eosio-mongo-table-trace.full]
+directory=/data/eosio.nocoin/eosio-mongo-table-trace/full/
+command=eosio-mongo-table-trace -d /data/eosio.nocoin/eosio-mongo-table-trace/full/ --history-log-dir=/data/eosio.nocoin/main/history-log --abi-dir=/data/eosio.nocoin/eosio-abi/ --mongodb-uri=mongodb://writer:lcchain@127.0.0.1:27017/eos
+autostart=true
+autorestart=true
+startretries=10
+redirect_stderr=true
+stdout_logfile=/data/eosio.nocoin/eosio-mongo-table-trace/full/run.log
+environment=
